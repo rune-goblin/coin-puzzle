@@ -2,7 +2,8 @@
   "id": "coin-puzzle",
   "title": "Coin Puzzle",
   "description": "A scene for the coin puzzle in the Pathfinder 2E beginner box",
-  "version": "3.0.0",
+  "version": "3.0.3",
+  "license": "LICENSE",
   "compatibility": {
     "minimum": 12,
     "verified": 13
