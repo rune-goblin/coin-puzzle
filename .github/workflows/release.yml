@@ -36,7 +36,8 @@ jobs:
             -x "packs/*/LOG" \
             -x "packs/*/LOG.old" \
             -x "packs/*/*.log" \
-            -x "beginner-box-coin-puzzle.zip"
+            -x "beginner-box-coin-puzzle.zip" \
+            -x "bb-preview.png"
 
       - name: Create release
         uses: softprops/action-gh-release@v2
