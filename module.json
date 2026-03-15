@@ -1,34 +1,28 @@
 {
   "id": "beginner-box-coin-puzzle",
-  "title": "beginner box coin puzzle",
-  "description": "A scene for the coin puzzle in the pathfinder 2E beginner box",
-  "version": "2.0.0",
+  "title": "Beginner Box Coin Puzzle",
+  "description": "A scene for the coin puzzle in the Pathfinder 2E beginner box",
+  "version": "3.0.0",
   "compatibility": {
-    "minimum": 10,
-    "verified": "10"
+    "minimum": 12,
+    "verified": 13
   },
   "authors": [{ "name": "Mark Pearce", "discord": "Mark Pearce#2772" }],
   "packs": [
     {
       "name": "bb-coin-puzzle-actors",
       "label": "Coin Puzzle Actors",
-      "path": "./packs/bb-coin-puzzle-actors.db",
-      "entity": "Actor",
+      "path": "packs/bb-coin-puzzle-actors",
       "type": "Actor",
-      "private": false,
-      "system": "pf2e",
-      "flags": {}
+      "system": "pf2e"
     },
     {
-      "name": "bb-coin-puzzle-scene",
+      "name": "bb-coin-puzzle-scenes",
       "label": "Coin Puzzle Scene",
-      "path": "./packs/bb-coin-puzzle-scenes.db",
-      "entity": "Scene",
-      "type": "Scene",
-      "private": false,
-      "flags": {}
+      "path": "packs/bb-coin-puzzle-scenes",
+      "type": "Scene"
     }
   ],
-  "manifest": "https://github.com/MarkPearce/beginner-box-coin-puzzle-v10/releases/latest/download/module.json",
-  "download": "https://github.com/MarkPearce/beginner-box-coin-puzzle-v10/releases/latest/download/beginner-box-coin-puzzle.zip"
+  "manifest": "https://github.com/rune-goblin/beginner-box-coin-puzzle/releases/latest/download/module.json",
+  "download": "https://github.com/rune-goblin/beginner-box-coin-puzzle/releases/latest/download/beginner-box-coin-puzzle.zip"
 }
