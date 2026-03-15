@@ -25,7 +25,7 @@ jobs:
 
       - name: Build zip
         run: |
-          zip -r beginner-box-coin-puzzle.zip . \
+          zip -r coin-puzzle.zip . \
             -x ".git/*" \
             -x ".github/*" \
             -x ".gitattributes" \
@@ -36,13 +36,13 @@ jobs:
             -x "packs/*/LOG" \
             -x "packs/*/LOG.old" \
             -x "packs/*/*.log" \
-            -x "beginner-box-coin-puzzle.zip" \
+            -x "coin-puzzle.zip" \
             -x "bb-preview.png"
 
       - name: Create release
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            beginner-box-coin-puzzle.zip
+            coin-puzzle.zip
             module.json
           generate_release_notes: true

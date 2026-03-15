@@ -1,0 +1,1244 @@
+{
+  "name": "Coin Puzzle",
+  "navigation": false,
+  "navName": "",
+  "foreground": null,
+  "width": 2528,
+  "height": 1920,
+  "padding": 0,
+  "initial": {
+    "x": null,
+    "y": null,
+    "scale": null
+  },
+  "backgroundColor": "#080603",
+  "tokenVision": false,
+  "drawings": [
+    {
+      "_id": "kGCLy87nrywNPNUV",
+      "author": "G6BRJx5EFSbtDh0Y",
+      "shape": {
+        "type": "r",
+        "width": 2534,
+        "height": 347,
+        "radius": null,
+        "points": []
+      },
+      "x": 2,
+      "y": 1573,
+      "elevation": 0,
+      "sort": 0,
+      "rotation": 0,
+      "bezierFactor": 0.5,
+      "fillType": 1,
+      "fillColor": "#797067",
+      "fillAlpha": 0.9,
+      "strokeWidth": 0,
+      "strokeColor": "#ffffff",
+      "strokeAlpha": 1,
+      "texture": null,
+      "fontFamily": "Signika",
+      "fontSize": 48,
+      "textColor": "#ffffff",
+      "textAlpha": 1,
+      "hidden": false,
+      "locked": true,
+      "interface": false,
+      "flags": {},
+      "text": "",
+      "_key": "!scenes.drawings!XKggTEOf2OdDG3kT.kGCLy87nrywNPNUV"
+    }
+  ],
+  "tokens": [
+    {
+      "flags": {
+        "pf2e": {
+          "linkToActorSize": true,
+          "autoscale": true
+        }
+      },
+      "height": 1,
+      "width": 1,
+      "actorLink": true,
+      "sight": {
+        "enabled": true,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "name": "coin",
+      "displayName": 20,
+      "texture": {
+        "src": "modules/coin-puzzle/artwork/coins_1.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 20,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "actorId": "7Ot7EX6hOsi1H9z7",
+      "hidden": false,
+      "sort": 0,
+      "shape": 4,
+      "_id": "H4wYEaoI3jv0ZJRJ",
+      "delta": {
+        "_id": "H4wYEaoI3jv0ZJRJ",
+        "system": {},
+        "flags": {},
+        "name": null,
+        "type": null,
+        "img": null,
+        "items": [],
+        "effects": [],
+        "ownership": null,
+        "_key": "!scenes.tokens.delta!XKggTEOf2OdDG3kT.H4wYEaoI3jv0ZJRJ.H4wYEaoI3jv0ZJRJ"
+      },
+      "x": 296,
+      "y": 1673,
+      "elevation": 0,
+      "locked": false,
+      "_movementHistory": [],
+      "_regions": [],
+      "_key": "!scenes.tokens!XKggTEOf2OdDG3kT.H4wYEaoI3jv0ZJRJ"
+    },
+    {
+      "flags": {
+        "pf2e": {
+          "linkToActorSize": true,
+          "autoscale": true
+        }
+      },
+      "height": 1,
+      "width": 1,
+      "actorLink": true,
+      "sight": {
+        "enabled": true,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "name": "coin",
+      "displayName": 20,
+      "texture": {
+        "src": "modules/coin-puzzle/artwork/coins_3.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": 1,
+      "displayBars": 20,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "actorId": "7Ot7EX6hOsi1H9z7",
+      "hidden": false,
+      "sort": 0,
+      "shape": 4,
+      "delta": {
+        "_id": "O5awLDaZjagVr9UD",
+        "system": {},
+        "flags": {},
+        "name": null,
+        "type": null,
+        "img": null,
+        "items": [],
+        "effects": [],
+        "ownership": null,
+        "_key": "!scenes.tokens.delta!XKggTEOf2OdDG3kT.O5awLDaZjagVr9UD.O5awLDaZjagVr9UD"
+      },
+      "x": 735,
+      "y": 1690,
+      "elevation": 0,
+      "locked": false,
+      "_movementHistory": [],
+      "_regions": [],
+      "_id": "O5awLDaZjagVr9UD",
+      "_key": "!scenes.tokens!XKggTEOf2OdDG3kT.O5awLDaZjagVr9UD"
+    },
+    {
+      "flags": {
+        "pf2e": {
+          "linkToActorSize": true,
+          "autoscale": true
+        }
+      },
+      "height": 1,
+      "width": 1,
+      "actorLink": true,
+      "sight": {
+        "enabled": true,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "name": "coin",
+      "displayName": 20,
+      "texture": {
+        "src": "modules/coin-puzzle/artwork/coins_2.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": 1,
+      "displayBars": 20,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "actorId": "7Ot7EX6hOsi1H9z7",
+      "hidden": false,
+      "sort": 2,
+      "shape": 4,
+      "delta": {
+        "_id": "5AvK9J1M9o09xZ2q",
+        "system": {},
+        "flags": {},
+        "name": null,
+        "type": null,
+        "img": null,
+        "items": [],
+        "effects": [],
+        "ownership": null,
+        "_key": "!scenes.tokens.delta!XKggTEOf2OdDG3kT.5AvK9J1M9o09xZ2q.5AvK9J1M9o09xZ2q"
+      },
+      "x": 501,
+      "y": 1653,
+      "elevation": 0,
+      "locked": false,
+      "_movementHistory": [],
+      "_regions": [],
+      "_id": "5AvK9J1M9o09xZ2q",
+      "_key": "!scenes.tokens!XKggTEOf2OdDG3kT.5AvK9J1M9o09xZ2q"
+    },
+    {
+      "flags": {
+        "pf2e": {
+          "linkToActorSize": true,
+          "autoscale": true
+        }
+      },
+      "height": 1,
+      "width": 1,
+      "actorLink": true,
+      "sight": {
+        "enabled": true,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "name": "coin",
+      "displayName": 20,
+      "texture": {
+        "src": "modules/coin-puzzle/artwork/coins_4.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": 1,
+      "displayBars": 20,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "actorId": "7Ot7EX6hOsi1H9z7",
+      "hidden": false,
+      "sort": 1,
+      "shape": 4,
+      "delta": {
+        "_id": "jUBxzuWZugtJ6FjV",
+        "system": {},
+        "flags": {},
+        "name": null,
+        "type": null,
+        "img": null,
+        "items": [],
+        "effects": [],
+        "ownership": null,
+        "_key": "!scenes.tokens.delta!XKggTEOf2OdDG3kT.jUBxzuWZugtJ6FjV.jUBxzuWZugtJ6FjV"
+      },
+      "x": 909,
+      "y": 1684,
+      "elevation": 0,
+      "locked": false,
+      "_movementHistory": [],
+      "_regions": [],
+      "_id": "jUBxzuWZugtJ6FjV",
+      "_key": "!scenes.tokens!XKggTEOf2OdDG3kT.jUBxzuWZugtJ6FjV"
+    },
+    {
+      "flags": {
+        "pf2e": {
+          "linkToActorSize": true,
+          "autoscale": true
+        }
+      },
+      "height": 1,
+      "width": 1,
+      "actorLink": true,
+      "sight": {
+        "enabled": true,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "name": "coin",
+      "displayName": 20,
+      "texture": {
+        "src": "modules/coin-puzzle/artwork/coins_5.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": 1,
+      "displayBars": 20,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "actorId": "7Ot7EX6hOsi1H9z7",
+      "hidden": false,
+      "sort": 0,
+      "shape": 4,
+      "delta": {
+        "_id": "gfREkQ2pRRvmF6NW",
+        "system": {},
+        "flags": {},
+        "name": null,
+        "type": null,
+        "img": null,
+        "items": [],
+        "effects": [],
+        "ownership": null,
+        "_key": "!scenes.tokens.delta!XKggTEOf2OdDG3kT.gfREkQ2pRRvmF6NW.gfREkQ2pRRvmF6NW"
+      },
+      "x": 1121,
+      "y": 1675,
+      "elevation": 0,
+      "locked": false,
+      "_movementHistory": [],
+      "_regions": [],
+      "_id": "gfREkQ2pRRvmF6NW",
+      "_key": "!scenes.tokens!XKggTEOf2OdDG3kT.gfREkQ2pRRvmF6NW"
+    },
+    {
+      "flags": {
+        "pf2e": {
+          "linkToActorSize": true,
+          "autoscale": true
+        }
+      },
+      "height": 1,
+      "width": 1,
+      "actorLink": true,
+      "sight": {
+        "enabled": true,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "name": "coin",
+      "displayName": 20,
+      "texture": {
+        "src": "modules/coin-puzzle/artwork/coins_6.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": 1,
+      "displayBars": 20,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "actorId": "7Ot7EX6hOsi1H9z7",
+      "hidden": false,
+      "sort": 0,
+      "shape": 4,
+      "delta": {
+        "_id": "FdUMw46mAAFIi3UY",
+        "system": {},
+        "flags": {},
+        "name": null,
+        "type": null,
+        "img": null,
+        "items": [],
+        "effects": [],
+        "ownership": null,
+        "_key": "!scenes.tokens.delta!XKggTEOf2OdDG3kT.FdUMw46mAAFIi3UY.FdUMw46mAAFIi3UY"
+      },
+      "x": 1356,
+      "y": 1683,
+      "elevation": 0,
+      "locked": false,
+      "_movementHistory": [],
+      "_regions": [],
+      "_id": "FdUMw46mAAFIi3UY",
+      "_key": "!scenes.tokens!XKggTEOf2OdDG3kT.FdUMw46mAAFIi3UY"
+    },
+    {
+      "flags": {
+        "pf2e": {
+          "linkToActorSize": true,
+          "autoscale": true
+        }
+      },
+      "height": 1,
+      "width": 1,
+      "actorLink": true,
+      "sight": {
+        "enabled": true,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "name": "coin",
+      "displayName": 20,
+      "texture": {
+        "src": "modules/coin-puzzle/artwork/coins_7.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": 1,
+      "displayBars": 20,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "actorId": "7Ot7EX6hOsi1H9z7",
+      "hidden": false,
+      "sort": 0,
+      "shape": 4,
+      "delta": {
+        "_id": "2HhHz0EdoVaFvfOu",
+        "system": {},
+        "flags": {},
+        "name": null,
+        "type": null,
+        "img": null,
+        "items": [],
+        "effects": [],
+        "ownership": null,
+        "_key": "!scenes.tokens.delta!XKggTEOf2OdDG3kT.2HhHz0EdoVaFvfOu.2HhHz0EdoVaFvfOu"
+      },
+      "x": 1551,
+      "y": 1675,
+      "elevation": 0,
+      "locked": false,
+      "_movementHistory": [],
+      "_regions": [],
+      "_id": "2HhHz0EdoVaFvfOu",
+      "_key": "!scenes.tokens!XKggTEOf2OdDG3kT.2HhHz0EdoVaFvfOu"
+    },
+    {
+      "flags": {
+        "pf2e": {
+          "linkToActorSize": true,
+          "autoscale": true
+        }
+      },
+      "height": 1,
+      "width": 1,
+      "actorLink": true,
+      "sight": {
+        "enabled": true,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "name": "coin",
+      "displayName": 20,
+      "texture": {
+        "src": "modules/coin-puzzle/artwork/coins_8.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": 1,
+      "displayBars": 20,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "actorId": "7Ot7EX6hOsi1H9z7",
+      "hidden": false,
+      "sort": 0,
+      "shape": 4,
+      "delta": {
+        "_id": "TpSOer2JlCYLagZo",
+        "system": {},
+        "flags": {},
+        "name": null,
+        "type": null,
+        "img": null,
+        "items": [],
+        "effects": [],
+        "ownership": null,
+        "_key": "!scenes.tokens.delta!XKggTEOf2OdDG3kT.TpSOer2JlCYLagZo.TpSOer2JlCYLagZo"
+      },
+      "x": 1729,
+      "y": 1679,
+      "elevation": 0,
+      "locked": false,
+      "_movementHistory": [],
+      "_regions": [],
+      "_id": "TpSOer2JlCYLagZo",
+      "_key": "!scenes.tokens!XKggTEOf2OdDG3kT.TpSOer2JlCYLagZo"
+    },
+    {
+      "flags": {
+        "pf2e": {
+          "linkToActorSize": true,
+          "autoscale": true
+        }
+      },
+      "height": 1,
+      "width": 1,
+      "actorLink": true,
+      "sight": {
+        "enabled": true,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "name": "coin",
+      "displayName": 20,
+      "texture": {
+        "src": "modules/coin-puzzle/artwork/coins_9.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": 1,
+      "displayBars": 20,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "actorId": "7Ot7EX6hOsi1H9z7",
+      "hidden": false,
+      "sort": 0,
+      "shape": 4,
+      "delta": {
+        "_id": "0ZPffvGssdbRaFn1",
+        "system": {},
+        "flags": {},
+        "name": null,
+        "type": null,
+        "img": null,
+        "items": [],
+        "effects": [],
+        "ownership": null,
+        "_key": "!scenes.tokens.delta!XKggTEOf2OdDG3kT.0ZPffvGssdbRaFn1.0ZPffvGssdbRaFn1"
+      },
+      "x": 2002,
+      "y": 1672,
+      "elevation": 0,
+      "locked": false,
+      "_movementHistory": [],
+      "_regions": [],
+      "_id": "0ZPffvGssdbRaFn1",
+      "_key": "!scenes.tokens!XKggTEOf2OdDG3kT.0ZPffvGssdbRaFn1"
+    }
+  ],
+  "lights": [],
+  "notes": [],
+  "sounds": [],
+  "templates": [],
+  "tiles": [],
+  "walls": [],
+  "playlist": null,
+  "playlistSound": null,
+  "journal": null,
+  "weather": "",
+  "folder": null,
+  "flags": {
+    "pf2e": {
+      "rulesBasedVision": null,
+      "hearingRange": null,
+      "environmentTypes": [],
+      "syncDarkness": "default"
+    }
+  },
+  "grid": {
+    "size": 150,
+    "type": 0,
+    "color": "#000000",
+    "alpha": 0.2,
+    "distance": 5,
+    "units": "ft",
+    "style": "solidLines",
+    "thickness": 1
+  },
+  "background": {
+    "src": "modules/coin-puzzle/artwork/abadar-statue.webp",
+    "offsetX": 0,
+    "offsetY": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "rotation": 0,
+    "tint": "#ffffff",
+    "anchorX": 0,
+    "anchorY": 0,
+    "fit": "fill",
+    "alphaThreshold": 0
+  },
+  "regions": [],
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.8.0",
+    "createdTime": 1773532324609,
+    "modifiedTime": 1773532324609,
+    "lastModifiedBy": "G6BRJx5EFSbtDh0Y"
+  },
+  "environment": {
+    "globalLight": {
+      "luminosity": 0,
+      "enabled": false,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "alpha": 0.5,
+      "bright": false,
+      "color": null,
+      "coloration": 1,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0
+    },
+    "darknessLevel": 0,
+    "darknessLock": false,
+    "cycle": true,
+    "base": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "dark": {
+      "hue": 0.7138888888888889,
+      "intensity": 0,
+      "luminosity": -0.25,
+      "saturation": 0,
+      "shadows": 0
+    }
+  },
+  "fog": {
+    "exploration": false,
+    "reset": 1650268269824,
+    "overlay": null,
+    "colors": {
+      "explored": null,
+      "unexplored": null
+    }
+  },
+  "foregroundElevation": null,
+  "thumb": "modules/coin-puzzle/artwork/puzzle-thumb.webp",
+  "journalEntryPage": null,
+  "ownership": {
+    "default": 0,
+    "G6BRJx5EFSbtDh0Y": 3
+  },
+  "navOrder": 0,
+  "_id": "XKggTEOf2OdDG3kT",
+  "active": false,
+  "sort": 0,
+  "_key": "!scenes!XKggTEOf2OdDG3kT",
+  "levels": []
+}

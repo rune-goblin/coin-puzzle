@@ -1,6 +1,6 @@
 {
-  "id": "beginner-box-coin-puzzle",
-  "title": "Beginner Box Coin Puzzle",
+  "id": "coin-puzzle",
+  "title": "Coin Puzzle",
   "description": "A scene for the coin puzzle in the Pathfinder 2E beginner box",
   "version": "3.0.0",
   "compatibility": {
@@ -10,19 +10,19 @@
   "authors": [{ "name": "Mark Pearce", "discord": "Mark Pearce#2772" }],
   "packs": [
     {
-      "name": "bb-coin-puzzle-actors",
+      "name": "coin-puzzle-actors",
       "label": "Coin Puzzle Actors",
-      "path": "packs/bb-coin-puzzle-actors",
+      "path": "packs/coin-puzzle-actors",
       "type": "Actor",
       "system": "pf2e"
     },
     {
-      "name": "bb-coin-puzzle-scenes",
+      "name": "coin-puzzle-scenes",
       "label": "Coin Puzzle Scene",
-      "path": "packs/bb-coin-puzzle-scenes",
+      "path": "packs/coin-puzzle-scenes",
       "type": "Scene"
     }
   ],
-  "manifest": "https://github.com/rune-goblin/beginner-box-coin-puzzle/releases/latest/download/module.json",
-  "download": "https://github.com/rune-goblin/beginner-box-coin-puzzle/releases/latest/download/beginner-box-coin-puzzle.zip"
+  "manifest": "https://github.com/rune-goblin/coin-puzzle/releases/latest/download/module.json",
+  "download": "https://github.com/rune-goblin/coin-puzzle/releases/latest/download/coin-puzzle.zip"
 }

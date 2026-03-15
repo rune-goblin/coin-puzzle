@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coin Puzzle</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+      background-color: #1a1510;
+      color: #e8dcc8;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      max-width: 800px;
+      width: 100%;
+      padding: 2rem 1.5rem;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.2rem;
+      color: #c9a84c;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+      margin-bottom: 1.5rem;
+      letter-spacing: 0.05em;
+    }
+
+    .preview-image {
+      width: 100%;
+      border-radius: 8px;
+      border: 2px solid #5a4a30;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+      margin-bottom: 2rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      color: #c9a84c;
+      border-bottom: 1px solid #5a4a30;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .solution {
+      background-color: #2a2218;
+      border: 1px solid #5a4a30;
+      border-radius: 8px;
+      padding: 1.5rem 2rem;
+      line-height: 1.8;
+    }
+
+    .solution p {
+      margin-bottom: 1rem;
+    }
+
+    .solution p:last-child {
+      margin-bottom: 0;
+    }
+
+    .step-label {
+      color: #c9a84c;
+      font-weight: bold;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.6rem;
+      }
+
+      .solution {
+        padding: 1rem 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Coin Puzzle</h1>
+
+    <img class="preview-image" src="bb-preview.png" alt="Coin Puzzle - A statue of Abadar with 9 numbered coins">
+
+    <h2>Puzzle Solution</h2>
+
+    <div class="solution">
+      <p>
+        The coin puzzle challenges the players to find which of the 9 coins is counterfeit
+        by placing coins in the hands of the statue. A counterfeit coin is lighter than the rest.
+        When coins are placed in the statue's hands, it will raise the hand holding the lighter group.
+        The players get only two attempts to identify the false coin.
+      </p>
+
+      <p>
+        <span class="step-label">First attempt:</span> Divide the 9 coins into three groups of three.
+        Place one group in each of the statue's hands and leave the third group on the table.
+        If the statue raises one hand, that group contains the false coin.
+        If neither hand rises, the false coin is in the group left on the table.
+      </p>
+
+      <p>
+        <span class="step-label">Second attempt:</span> Take the group identified in the first attempt
+        and split it: place one coin in each of the statue's hands and leave the third on the table.
+        If the statue raises a hand, that coin is the counterfeit.
+        If neither hand rises, the coin left on the table is the counterfeit.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
