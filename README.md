@@ -1,6 +1,6 @@
 # Coin Puzzle
 
-![GitHub Downloads (all releases)](https://img.shields.io/github/downloads/rune-goblin/coin-puzzle/total)
+![GitHub Downloads (all releases)](https://img.shields.io/github/downloads/rune-goblin/coin-puzzle/total?include_prereleases&filter=*.zip)
 
 A faithful recreation of the coin sorting puzzle from the PF2E Beginner Box for Foundry VTT. Players must identify a counterfeit coin from a set using a statue of Abadar as a balance -- and they only get two attempts.
 
